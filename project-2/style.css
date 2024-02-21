@@ -1,0 +1,177 @@
+*{
+  margin: 0;
+  padding: 0;box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+#main{
+  height: 100%;
+  width: 100%;
+}
+
+#nav{
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 25px 35px;
+}
+
+#nav h3{
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 50px;
+  font-size: 16px;
+  margin-left: 6px;
+}
+
+#intro{
+  height: 45%;
+  width: 100%;
+  background-color: white;
+  padding: 50px 50px;
+}
+
+#intro h1{
+  font-size: 115px;
+  font-weight: 800;
+  line-height: 110px;
+  letter-spacing: -3px;
+}
+
+#place{
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#place h3,#place h4{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#hero-image{
+  height: 70%;
+  width: 100%;
+  background-image: url(/IMG20231210174137\ \(1\).jpg);
+  background-size: cover;
+}
+
+#about{
+  height: 45%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 35px;
+}
+
+#about h2{
+  width: 67%;
+  font-size: 68px;
+  line-height: 80px;
+}
+
+#about-2{
+  width: 32%;
+  height: 100%;
+  padding: 0 40px;
+  border-left: 3px solid #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#about-2 h3{
+  font-size: 20px;
+}
+
+#icons i{
+  background-color: #000;
+  color: white;
+  padding: 8px;
+  font-size: 18px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+#work{
+  height: 60%;
+  width: 100%;
+  border-top: 3px solid #000;
+  display: flex;
+  padding: 40px 35px;
+}
+
+#work-1{
+  width: 33%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 30px;
+  border-right: 3px solid #000;
+}
+
+#work-2{
+  width: 65%;
+  height: 100%;
+  padding: 0 30px;
+}
+
+#work-1 h3{
+  font-size: 25px;
+}
+
+#work-1 i{
+  font-size: 25px;
+}
+
+.work-2-2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 35px 0;
+}
+
+.work-2-2:nth-child(1)
+{
+  border-bottom: 3px solid black;
+}
+
+.work-2-2 .elem{
+  width: 50%;
+  height: 100%;
+}
+
+.work-2-2 .elem:nth-child(1)
+{
+  border-right: 3px solid black;
+  padding-right: 30px;
+}
+
+.work-2-2 .elem:nth-child(2)
+{
+  padding-left: 30px;
+}
+
+.work-2-2 .elem h4{
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-weight: 750;
+}
+
+.work-2-2 .elem p{
+  font-size: 15px;
+  font-weight: 500;
+  color: #5d5959;
+}
+
+
+
